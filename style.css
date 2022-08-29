@@ -1,0 +1,110 @@
+
+body {
+    width: 1440px;
+    height: max-content;
+    font-family: 'Outfit', sans-serif;
+}
+
+.background {
+    background-color: hsl(217, 54%, 11%);
+    width: 1440px;
+    height: 900px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.box {
+    background-color: hsl(216, 50%, 16%);
+    height: max-content;
+    width: max-content;
+    border-radius: 15px;
+    position: static;
+    display: grid;
+    grid-template-rows: max-content;
+    justify-content: center;
+    padding: 15px;
+}
+
+.equilibrium img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: solid 0.1px hsl(215, 32%, 27%);
+    padding-bottom: 20px;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.eth {
+    display: flex;
+    text-align: left;
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+}
+.eth img {
+    height: 14px;
+    margin-right: 5px;
+}
+
+.timeleft {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.timeleft img {
+    margin-right: 5px;
+}
+
+p{
+    max-width: 250px;
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 300
+}
+
+.foot {
+    display: grid;
+    width: 70%;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.footcreat {
+    display: flex;
+    color :hsl(215, 51%, 70%);
+    text-align: right;
+    align-items: center;
+    font-weight: 300;
+    grid-gap: 6px;
+}
+
+.footcreat img {
+    width: 24px;
+    border: solid 0.1px white;
+    border-radius: 24px;
+    margin-right: 5px;
+}
+
+.autor {
+    color: white;
+}
